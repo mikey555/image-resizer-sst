@@ -6,5 +6,3 @@ export const CognitoExceptionSchema = z.object({
     message: z.string(),
     stack: z.string(),
 });
-
-type CognitoException = z.infer<typeof CognitoExceptionSchema>;
